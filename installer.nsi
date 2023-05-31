@@ -8,8 +8,9 @@ ShowUninstDetails show
 LicenseData LICENSE
 Section "Software"
   SetOutPath $INSTDIR
-  File main.java
+  File CAPSIDE.java
   File CAPSIDE-JS.java
+  File capside.exe
   File /r PS-Builds
   WriteUninstaller "UninstallCAPSIDE.exe"
 SectionEnd
