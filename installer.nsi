@@ -12,6 +12,9 @@ Section "Software"
   File CAPSIDE-JS.java
   File capside.exe
   File /r PS-Builds
+  File .gitignore
+  File /oname=gpl-3.txt LICENSE
+  File /oname=readme.txt README.md
   WriteUninstaller "UninstallCAPSIDE.exe"
 SectionEnd
 Section "Uninstall"
